@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T02:37:27.371Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="WKYjdC8Q1QDG68adhNik" version="14.4.3" type="github" pages="3">
-  <diagram id="qRUG0cfqEuVmG1pRATtT" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-03-03T02:50:45.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="SdEp8kH_nMScbJ8Wv5rX" version="14.4.3" type="github" pages="4">
+  <diagram id="qRUG0cfqEuVmG1pRATtT" name="整体">
     <mxGraphModel dx="2505" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -221,7 +221,7 @@
             <mxPoint x="213" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WQ8egibFSrCYrTXUDlOK-1" value="xio0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WQ8egibFSrCYrTXUDlOK-1" value="xio0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="47.5" y="460" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WQ8egibFSrCYrTXUDlOK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.492;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WQ8egibFSrCYrTXUDlOK-2" target="_C5CsfDGfGbC9j-XJk-L-1">
@@ -229,7 +229,7 @@
             <mxPoint x="210" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WQ8egibFSrCYrTXUDlOK-2" value="xio1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WQ8egibFSrCYrTXUDlOK-2" value="xio1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="160" y="460" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WQ8egibFSrCYrTXUDlOK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WQ8egibFSrCYrTXUDlOK-3">
@@ -237,7 +237,7 @@
             <mxPoint x="210" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WQ8egibFSrCYrTXUDlOK-3" value="xio2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WQ8egibFSrCYrTXUDlOK-3" value="xio2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="270" y="460" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WQ8egibFSrCYrTXUDlOK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WQ8egibFSrCYrTXUDlOK-4" target="IK5SvGMLqfBiNEefT4bq-43">
@@ -246,10 +246,16 @@
         <mxCell id="WQ8egibFSrCYrTXUDlOK-4" value="通用块层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="550" width="230" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="hixg62Ps5cN7dxzxBqgc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hixg62Ps5cN7dxzxBqgc-1" target="_C5CsfDGfGbC9j-XJk-L-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hixg62Ps5cN7dxzxBqgc-1" value="xbd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="8gFxtMRFPUGjt5kzVGM9" name="Page-2">
+  <diagram id="8gFxtMRFPUGjt5kzVGM9" name="用户态内核态通信">
     <mxGraphModel dx="815" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rnY17nM4QrSo3sVrF1C8-0" />
@@ -385,7 +391,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="HCLbguu9RpUetgIRoJLJ" name="Page-3">
+  <diagram id="HCLbguu9RpUetgIRoJLJ" name="用户态">
     <mxGraphModel dx="983" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="56wGHoy_YBDkHMM6_6ec-0" />
@@ -512,6 +518,14 @@
         <mxCell id="0_2a2rFp3N4nmG6HOWQl-13" value="share memary" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="56wGHoy_YBDkHMM6_6ec-1">
           <mxGeometry x="180" y="410" width="280" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iTbqZScwvkKGwuySxU1b" name="内核态">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="zd1k4HYxMjK0sM8L87X2-0" />
+        <mxCell id="zd1k4HYxMjK0sM8L87X2-1" parent="zd1k4HYxMjK0sM8L87X2-0" />
       </root>
     </mxGraphModel>
   </diagram>
