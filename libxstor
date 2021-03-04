@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T12:55:25.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ImJQ25s62irjT3ASbTkJ" version="14.4.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-04T01:17:01.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="oh2yJqrxCiFc3ezk0bmu" version="14.4.3" type="github" pages="8">
   <diagram id="qRUG0cfqEuVmG1pRATtT" name="整体">
     <mxGraphModel dx="2505" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1197,6 +1197,74 @@
         </mxCell>
         <mxCell id="owR89vrUxDa15RCrjBhq-7" value="原始请求加入&lt;br&gt;cmd hash table" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="0VJuHLjvwusUR5OU3E-A-1">
           <mxGeometry x="140" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Xu3fPc2BXUi1M6TwyaYR" name="用户态接收数据">
+    <mxGraphModel dx="1426" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="U4kG2RfiU2uj3IwAY68y-0" />
+        <mxCell id="U4kG2RfiU2uj3IwAY68y-1" parent="U4kG2RfiU2uj3IwAY68y-0" />
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="U4kG2RfiU2uj3IwAY68y-1" source="aFpgkTz15fHuRe7DcQqA-0" target="aFpgkTz15fHuRe7DcQqA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-0" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=12;" vertex="1" parent="U4kG2RfiU2uj3IwAY68y-1">
+          <mxGeometry x="160" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="U4kG2RfiU2uj3IwAY68y-1" source="aFpgkTz15fHuRe7DcQqA-1" target="aFpgkTz15fHuRe7DcQqA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-1" value="获取请求" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="U4kG2RfiU2uj3IwAY68y-1">
+          <mxGeometry x="150" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="U4kG2RfiU2uj3IwAY68y-1" source="aFpgkTz15fHuRe7DcQqA-3" target="aFpgkTz15fHuRe7DcQqA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-3" value="解析请求" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="U4kG2RfiU2uj3IwAY68y-1">
+          <mxGeometry x="150" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="U4kG2RfiU2uj3IwAY68y-1" source="aFpgkTz15fHuRe7DcQqA-5" target="aFpgkTz15fHuRe7DcQqA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-5" value="hash table查找请求" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="U4kG2RfiU2uj3IwAY68y-1">
+          <mxGeometry x="150" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="U4kG2RfiU2uj3IwAY68y-1" source="aFpgkTz15fHuRe7DcQqA-7" target="aFpgkTz15fHuRe7DcQqA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="U4kG2RfiU2uj3IwAY68y-1" source="aFpgkTz15fHuRe7DcQqA-7" target="aFpgkTz15fHuRe7DcQqA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-7" value="查找成功？" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="U4kG2RfiU2uj3IwAY68y-1">
+          <mxGeometry x="170" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="U4kG2RfiU2uj3IwAY68y-1" source="aFpgkTz15fHuRe7DcQqA-9" target="aFpgkTz15fHuRe7DcQqA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-9" value="忽略该消息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="U4kG2RfiU2uj3IwAY68y-1">
+          <mxGeometry x="310" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="U4kG2RfiU2uj3IwAY68y-1" source="aFpgkTz15fHuRe7DcQqA-11" target="aFpgkTz15fHuRe7DcQqA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-11" value="拷贝数据缓存" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="U4kG2RfiU2uj3IwAY68y-1">
+          <mxGeometry x="150" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="U4kG2RfiU2uj3IwAY68y-1" source="aFpgkTz15fHuRe7DcQqA-13" target="aFpgkTz15fHuRe7DcQqA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-13" value="请求加入finisher链表" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="U4kG2RfiU2uj3IwAY68y-1">
+          <mxGeometry x="150" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="U4kG2RfiU2uj3IwAY68y-1" source="aFpgkTz15fHuRe7DcQqA-15" target="aFpgkTz15fHuRe7DcQqA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-15" value="将原始请求移出hash table" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="U4kG2RfiU2uj3IwAY68y-1">
+          <mxGeometry x="150" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFpgkTz15fHuRe7DcQqA-17" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=12;" vertex="1" parent="U4kG2RfiU2uj3IwAY68y-1">
+          <mxGeometry x="160" y="1160" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
