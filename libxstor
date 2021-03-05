@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T01:13:43.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="h0lqOex15wWM5YwPnUym" version="14.4.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-03-05T01:14:47.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="nVT4LJ8hMhRyA5Bm1Uck" version="14.4.3" type="github" pages="8">
   <diagram id="qRUG0cfqEuVmG1pRATtT" name="整体">
     <mxGraphModel dx="2505" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -381,6 +381,18 @@
         </mxCell>
         <mxCell id="0FgRtt4D7xptjqlcSt0j-29" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;size=0.5;rotation=-180;" vertex="1" parent="rnY17nM4QrSo3sVrF1C8-1">
           <mxGeometry x="742" y="260" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lx6xnc_3NMmwkshN9JZy-0" value="netlink" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="rnY17nM4QrSo3sVrF1C8-1" source="9CuBvycbTXgqoAtsSddk-14" target="bCq0L0bKfyU3PouijTfO-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="90" as="sourcePoint" />
+            <mxPoint x="90" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="300" />
+              <mxPoint x="20" y="250" />
+              <mxPoint x="30" y="210" />
+              <mxPoint x="40" y="170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
