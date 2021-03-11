@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T11:59:59.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="OKJv7jLJVATs9aslqZjq" version="14.4.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-11T12:06:07.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="huJpHwepWHSLmB5J-Ve8" version="14.4.4" type="github" pages="7">
   <diagram id="qRUG0cfqEuVmG1pRATtT" name="整体">
     <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,8 +184,10 @@
         <mxCell id="IK5SvGMLqfBiNEefT4bq-61" value="xStor cluster" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-101.5" y="850" width="1023" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nGtE0UC7aL96rFl7pJo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.108;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_C5CsfDGfGbC9j-XJk-L-1" target="IK5SvGMLqfBiNEefT4bq-43" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7nGtE0UC7aL96rFl7pJo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.109;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_C5CsfDGfGbC9j-XJk-L-1" target="IK5SvGMLqfBiNEefT4bq-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="128" y="640" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="LE1GCV_zHRfPb60M_aZ8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.97;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_C5CsfDGfGbC9j-XJk-L-1" target="LE1GCV_zHRfPb60M_aZ8-1">
           <mxGeometry relative="1" as="geometry" />
