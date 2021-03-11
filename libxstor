@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T11:56:56.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="SjL4JP4w3_D9KmuQUIvv" version="14.4.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-11T11:59:59.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="OKJv7jLJVATs9aslqZjq" version="14.4.4" type="github" pages="7">
   <diagram id="qRUG0cfqEuVmG1pRATtT" name="整体">
     <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -668,7 +668,7 @@
         <mxCell id="Gi2nZYWTHEhlSNvr4L1x-2" value="第三方应用(Qemu)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="Gi2nZYWTHEhlSNvr4L1x-1" vertex="1">
           <mxGeometry x="60" y="40" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="Gi2nZYWTHEhlSNvr4L1x-6" value="初始化内核模块实例" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-2" target="Gi2nZYWTHEhlSNvr4L1x-4" edge="1">
+        <mxCell id="Gi2nZYWTHEhlSNvr4L1x-6" value="初始化libxstor实例" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-2" target="Gi2nZYWTHEhlSNvr4L1x-4" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="80" as="sourcePoint" />
             <mxPoint x="130" y="80" as="targetPoint" />
@@ -709,14 +709,14 @@
         </mxCell>
         <mxCell id="osBHZDzzhXXPe7ywTbpA-9" value="创建io上下文" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="110.25" y="339.5" as="sourcePoint" />
-            <mxPoint x="349.75" y="339.5" as="targetPoint" />
+            <mxPoint x="110.25" y="330" as="sourcePoint" />
+            <mxPoint x="349.75" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JF57jzw10anWyk-MQQKV-1" value="获得上下文" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="350.5" y="370" as="sourcePoint" />
-            <mxPoint x="109.5" y="370" as="targetPoint" />
+            <mxPoint x="350.5" y="360" as="sourcePoint" />
+            <mxPoint x="109.5" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JF57jzw10anWyk-MQQKV-3" value="打开卷" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
@@ -755,7 +755,7 @@
             <mxPoint x="350" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JF57jzw10anWyk-MQQKV-15" value="绑定io上下文" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
+        <mxCell id="JF57jzw10anWyk-MQQKV-15" value="绑定io_list" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="350.5" y="423" as="sourcePoint" />
             <mxPoint x="230" y="423" as="targetPoint" />
@@ -838,6 +838,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ng5UmIDvzZeRmPe1s6y6-1" value="创建io线程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ng5UmIDvzZeRmPe1s6y6-0">
+          <mxGeometry x="0.3985" y="5" relative="1" as="geometry">
+            <mxPoint x="14.44" y="-11.17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng5UmIDvzZeRmPe1s6y6-2" value="" style="curved=1;endArrow=none;html=1;fontSize=12;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="Gi2nZYWTHEhlSNvr4L1x-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="349.5" y="360" as="sourcePoint" />
+            <mxPoint x="349.5" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="360" />
+              <mxPoint x="350" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng5UmIDvzZeRmPe1s6y6-3" value="创建io_list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ng5UmIDvzZeRmPe1s6y6-2">
           <mxGeometry x="0.3985" y="5" relative="1" as="geometry">
             <mxPoint x="14.44" y="-11.17" as="offset" />
           </mxGeometry>
