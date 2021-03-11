@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T11:45:11.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="NgfVCbfSy7aXJFnnmoVo" version="14.4.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-11T11:53:04.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="iT5tWiLxp713ZXm5dtHA" version="14.4.4" type="github" pages="7">
   <diagram id="qRUG0cfqEuVmG1pRATtT" name="整体">
     <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -719,19 +719,19 @@
             <mxPoint x="109.5" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JF57jzw10anWyk-MQQKV-3" value="open image with &lt;br&gt;io context" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
+        <mxCell id="JF57jzw10anWyk-MQQKV-3" value="打开卷" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="110.25" y="390" as="sourcePoint" />
             <mxPoint x="230" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JF57jzw10anWyk-MQQKV-7" value="add to ringbuf" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
+        <mxCell id="JF57jzw10anWyk-MQQKV-7" value="add to io_list" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="230" y="530" as="sourcePoint" />
             <mxPoint x="349.5" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JF57jzw10anWyk-MQQKV-8" value="push cmd to&amp;nbsp;&lt;br&gt;share memary" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
+        <mxCell id="JF57jzw10anWyk-MQQKV-8" value="push cmd to&amp;nbsp;&lt;br&gt;io_ring send" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="350" y="530" as="sourcePoint" />
             <mxPoint x="469.5" y="530" as="targetPoint" />
@@ -767,13 +767,13 @@
             <mxPoint x="350" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JF57jzw10anWyk-MQQKV-15" value="bind dev &lt;br&gt;with io context" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
+        <mxCell id="JF57jzw10anWyk-MQQKV-15" value="绑定io上下文" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="350.5" y="423" as="sourcePoint" />
             <mxPoint x="230" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JF57jzw10anWyk-MQQKV-16" value="open success" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
+        <mxCell id="JF57jzw10anWyk-MQQKV-16" value="打开完成" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="230.5" y="423" as="sourcePoint" />
             <mxPoint x="110" y="423" as="targetPoint" />
@@ -794,7 +794,7 @@
             <mxPoint x="470" y="567" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JF57jzw10anWyk-MQQKV-21" value="push ack to&lt;br&gt;&amp;nbsp;share memary" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
+        <mxCell id="JF57jzw10anWyk-MQQKV-21" value="push ack to&lt;br&gt;&amp;nbsp;io_ring recv" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="470.5" y="567" as="sourcePoint" />
             <mxPoint x="350" y="567" as="targetPoint" />
@@ -828,7 +828,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d-EhZPL_9P7l0b6V9Rxe-7" value="创建ring" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="d-EhZPL_9P7l0b6V9Rxe-4" vertex="1" connectable="0">
+        <mxCell id="d-EhZPL_9P7l0b6V9Rxe-7" value="初始化ring" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="d-EhZPL_9P7l0b6V9Rxe-4" vertex="1" connectable="0">
           <mxGeometry x="0.3985" y="5" relative="1" as="geometry">
             <mxPoint x="14.44" y="-11.17" as="offset" />
           </mxGeometry>
