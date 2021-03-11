@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T11:34:45.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="zHqJpeIMydOuzGQAC-IK" version="14.4.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-11T11:45:11.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="NgfVCbfSy7aXJFnnmoVo" version="14.4.4" type="github" pages="7">
   <diagram id="qRUG0cfqEuVmG1pRATtT" name="整体">
     <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1181,7 +1181,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5bJ5gygmpaSh7nXvFEBI" name="用户态io线程请求发送流程图">
-    <mxGraphModel dx="1426" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0VJuHLjvwusUR5OU3E-A-0" />
         <mxCell id="0VJuHLjvwusUR5OU3E-A-1" parent="0VJuHLjvwusUR5OU3E-A-0" />
@@ -1194,7 +1194,7 @@
         <mxCell id="ubk-ACGBW82mKdVF1pN6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="ubk-ACGBW82mKdVF1pN6-5" target="ubk-ACGBW82mKdVF1pN6-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ubk-ACGBW82mKdVF1pN6-5" value="读取netlink" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
+        <mxCell id="ubk-ACGBW82mKdVF1pN6-5" value="读取cmd ring" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
           <mxGeometry x="150" y="120" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ubk-ACGBW82mKdVF1pN6-10" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="ubk-ACGBW82mKdVF1pN6-6" target="ubk-ACGBW82mKdVF1pN6-9" edge="1">
@@ -1203,19 +1203,19 @@
         <mxCell id="ubk-ACGBW82mKdVF1pN6-33" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="ubk-ACGBW82mKdVF1pN6-6" target="ubk-ACGBW82mKdVF1pN6-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ubk-ACGBW82mKdVF1pN6-6" value="读取成功？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
+        <mxCell id="ubk-ACGBW82mKdVF1pN6-6" value="存在请求？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
           <mxGeometry x="150" y="180" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ubk-ACGBW82mKdVF1pN6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="ubk-ACGBW82mKdVF1pN6-9" target="ubk-ACGBW82mKdVF1pN6-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ubk-ACGBW82mKdVF1pN6-9" value="获得下一个环形链表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
+        <mxCell id="ubk-ACGBW82mKdVF1pN6-9" value="获得下一个io_list" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
           <mxGeometry x="150" y="270" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ubk-ACGBW82mKdVF1pN6-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="ubk-ACGBW82mKdVF1pN6-12" target="ubk-ACGBW82mKdVF1pN6-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ubk-ACGBW82mKdVF1pN6-12" value="读取当前环形链表请求个数作为本次待执行请求数量" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
+        <mxCell id="ubk-ACGBW82mKdVF1pN6-12" value="拷贝当前io_list内请求" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
           <mxGeometry x="140" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ubk-ACGBW82mKdVF1pN6-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="ubk-ACGBW82mKdVF1pN6-19" target="ubk-ACGBW82mKdVF1pN6-23" edge="1">
@@ -1247,14 +1247,13 @@
         <mxCell id="owR89vrUxDa15RCrjBhq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="ubk-ACGBW82mKdVF1pN6-27" target="owR89vrUxDa15RCrjBhq-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ubk-ACGBW82mKdVF1pN6-27" value="推送请求" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
+        <mxCell id="ubk-ACGBW82mKdVF1pN6-27" value="推送到io_ring send" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
           <mxGeometry x="140" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vDqzoLpkcB3bVACMN9Rq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="ubk-ACGBW82mKdVF1pN6-29" target="vDqzoLpkcB3bVACMN9Rq-0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ubk-ACGBW82mKdVF1pN6-29" value="本次待执行请求数减1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
-          <mxGeometry x="140" y="890" width="120" height="60" as="geometry" />
+        <mxCell id="vDqzoLpkcB3bVACMN9Rq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="owR89vrUxDa15RCrjBhq-7" target="vDqzoLpkcB3bVACMN9Rq-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="920" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ubk-ACGBW82mKdVF1pN6-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="ubk-ACGBW82mKdVF1pN6-32" target="ubk-ACGBW82mKdVF1pN6-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1284,22 +1283,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ubk-ACGBW82mKdVF1pN6-38" value="是否是最后一个环形链表" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
+        <mxCell id="ubk-ACGBW82mKdVF1pN6-38" value="是否是最后一个io_list" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
           <mxGeometry x="150" y="320" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="owR89vrUxDa15RCrjBhq-2" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
           <mxGeometry x="450" y="1090" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="owR89vrUxDa15RCrjBhq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="owR89vrUxDa15RCrjBhq-7" target="ubk-ACGBW82mKdVF1pN6-29" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="owR89vrUxDa15RCrjBhq-7" value="原始请求加入&lt;br&gt;cmd hash table" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
+        <mxCell id="owR89vrUxDa15RCrjBhq-7" value="原始请求加入&lt;br&gt;hash table" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
           <mxGeometry x="140" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vDqzoLpkcB3bVACMN9Rq-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="vDqzoLpkcB3bVACMN9Rq-0" target="vDqzoLpkcB3bVACMN9Rq-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vDqzoLpkcB3bVACMN9Rq-0" value="共享内存中获取一条请求" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
+        <mxCell id="vDqzoLpkcB3bVACMN9Rq-0" value="io_ring recv中获取一条请求" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
           <mxGeometry x="430" y="457.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vDqzoLpkcB3bVACMN9Rq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="vDqzoLpkcB3bVACMN9Rq-1" target="vDqzoLpkcB3bVACMN9Rq-5" edge="1">
@@ -1361,7 +1357,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vDqzoLpkcB3bVACMN9Rq-15" value="请求链表及hash table为空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
+        <mxCell id="vDqzoLpkcB3bVACMN9Rq-15" value="io_lists及hash table为空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" vertex="1">
           <mxGeometry x="425" y="970" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vDqzoLpkcB3bVACMN9Rq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" parent="0VJuHLjvwusUR5OU3E-A-1" source="vDqzoLpkcB3bVACMN9Rq-19" target="vDqzoLpkcB3bVACMN9Rq-15" edge="1">
