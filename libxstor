@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T01:26:13.032Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="JusVpFAegtPgP-8PuajJ" version="14.4.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-12T06:37:42.758Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="OTDB-gg86YTfsRg3ZhiU" version="14.4.4" type="github" pages="7">
   <diagram id="qRUG0cfqEuVmG1pRATtT" name="整体">
-    <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,7 +235,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8gFxtMRFPUGjt5kzVGM9" name="用户态内核态通信">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rnY17nM4QrSo3sVrF1C8-0" />
         <mxCell id="rnY17nM4QrSo3sVrF1C8-1" parent="rnY17nM4QrSo3sVrF1C8-0" />
@@ -364,7 +364,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HCLbguu9RpUetgIRoJLJ" name="用户态">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="56wGHoy_YBDkHMM6_6ec-0" />
         <mxCell id="56wGHoy_YBDkHMM6_6ec-1" parent="56wGHoy_YBDkHMM6_6ec-0" />
@@ -544,7 +544,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iTbqZScwvkKGwuySxU1b" name="内核态">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zd1k4HYxMjK0sM8L87X2-0" />
         <mxCell id="zd1k4HYxMjK0sM8L87X2-1" parent="zd1k4HYxMjK0sM8L87X2-0" />
@@ -663,14 +663,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GPdfnVGZS26kgANTtZnn" name="模块调用">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Gi2nZYWTHEhlSNvr4L1x-0" />
         <mxCell id="Gi2nZYWTHEhlSNvr4L1x-1" parent="Gi2nZYWTHEhlSNvr4L1x-0" />
         <mxCell id="Gi2nZYWTHEhlSNvr4L1x-2" value="第三方应用(Qemu)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="Gi2nZYWTHEhlSNvr4L1x-1" vertex="1">
           <mxGeometry x="60" y="40" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="Gi2nZYWTHEhlSNvr4L1x-6" value="初始化libxstor实例" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-2" target="Gi2nZYWTHEhlSNvr4L1x-4" edge="1">
+        <mxCell id="Gi2nZYWTHEhlSNvr4L1x-6" value="创建libxstor实例" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-2" target="Gi2nZYWTHEhlSNvr4L1x-4" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="80" as="sourcePoint" />
             <mxPoint x="130" y="80" as="targetPoint" />
@@ -688,25 +688,13 @@
         <mxCell id="Gi2nZYWTHEhlSNvr4L1x-4" value="libxstor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="Gi2nZYWTHEhlSNvr4L1x-1" vertex="1">
           <mxGeometry x="300" y="40" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="Gi2nZYWTHEhlSNvr4L1x-8" value="连接存储集群" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-4" target="Gi2nZYWTHEhlSNvr4L1x-5" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="50" y="80" as="sourcePoint" />
-            <mxPoint x="130" y="80" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Gi2nZYWTHEhlSNvr4L1x-5" value="xclient-if" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="Gi2nZYWTHEhlSNvr4L1x-1" vertex="1">
           <mxGeometry x="420" y="40" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="osBHZDzzhXXPe7ywTbpA-0" value="连接成功" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-5" target="Gi2nZYWTHEhlSNvr4L1x-4" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="50" y="110" as="sourcePoint" />
-            <mxPoint x="130" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="osBHZDzzhXXPe7ywTbpA-8" value="获得实例" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="350.5" y="290" as="sourcePoint" />
-            <mxPoint x="109.5" y="290" as="targetPoint" />
+            <mxPoint x="350.5" y="230" as="sourcePoint" />
+            <mxPoint x="109.5" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="osBHZDzzhXXPe7ywTbpA-9" value="创建io上下文" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
@@ -798,23 +786,23 @@
         </mxCell>
         <mxCell id="d-EhZPL_9P7l0b6V9Rxe-0" value="创建xio设备" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="351" y="180" as="sourcePoint" />
-            <mxPoint x="470.5" y="180" as="targetPoint" />
+            <mxPoint x="351" y="120" as="sourcePoint" />
+            <mxPoint x="470.5" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d-EhZPL_9P7l0b6V9Rxe-2" value="创建完成" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="470.5" y="210" as="sourcePoint" />
-            <mxPoint x="350" y="210" as="targetPoint" />
+            <mxPoint x="470.5" y="150" as="sourcePoint" />
+            <mxPoint x="350" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d-EhZPL_9P7l0b6V9Rxe-4" value="" style="curved=1;endArrow=none;html=1;fontSize=12;startArrow=classic;startFill=1;endFill=0;" parent="Gi2nZYWTHEhlSNvr4L1x-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="349.5" y="290" as="sourcePoint" />
-            <mxPoint x="349.5" y="260" as="targetPoint" />
+            <mxPoint x="349.5" y="230" as="sourcePoint" />
+            <mxPoint x="349.5" y="200" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="290" />
-              <mxPoint x="350" y="260" />
+              <mxPoint x="400" y="230" />
+              <mxPoint x="350" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -831,11 +819,11 @@
         </mxCell>
         <mxCell id="ng5UmIDvzZeRmPe1s6y6-0" value="" style="curved=1;endArrow=none;html=1;fontSize=12;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="Gi2nZYWTHEhlSNvr4L1x-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="349.5" y="260" as="sourcePoint" />
-            <mxPoint x="349.5" y="230" as="targetPoint" />
+            <mxPoint x="349.5" y="200" as="sourcePoint" />
+            <mxPoint x="349.5" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="260" />
-              <mxPoint x="350" y="230" />
+              <mxPoint x="400" y="200" />
+              <mxPoint x="350" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -859,11 +847,35 @@
             <mxPoint x="14.44" y="-11.17" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="P2PPEKrS9ofYoqzaZttz-2" value="连接存储集群" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Gi2nZYWTHEhlSNvr4L1x-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="270" as="sourcePoint" />
+            <mxPoint x="349.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2PPEKrS9ofYoqzaZttz-3" value="连接成功" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" edge="1" parent="Gi2nZYWTHEhlSNvr4L1x-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="351" y="300" as="sourcePoint" />
+            <mxPoint x="110" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2PPEKrS9ofYoqzaZttz-4" value="连接存储集群" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Gi2nZYWTHEhlSNvr4L1x-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="351" y="270" as="sourcePoint" />
+            <mxPoint x="470.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2PPEKrS9ofYoqzaZttz-5" value="连接成功" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=12;" edge="1" parent="Gi2nZYWTHEhlSNvr4L1x-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="470.5" y="300" as="sourcePoint" />
+            <mxPoint x="350" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="HuYjCChND4MUcD0tiCl8" name="iscsi">
-    <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OynWTQ6G886Octdcwxtz-0" />
         <mxCell id="OynWTQ6G886Octdcwxtz-1" parent="OynWTQ6G886Octdcwxtz-0" />
