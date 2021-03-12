@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T12:06:40.147Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="9L1U-WDzUt1GEUyoqIZk" version="14.4.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-12T01:26:13.032Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="JusVpFAegtPgP-8PuajJ" version="14.4.4" type="github" pages="7">
   <diagram id="qRUG0cfqEuVmG1pRATtT" name="整体">
     <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         <mxCell id="7nGtE0UC7aL96rFl7pJo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IK5SvGMLqfBiNEefT4bq-43" target="IK5SvGMLqfBiNEefT4bq-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IK5SvGMLqfBiNEefT4bq-43" value="kernel client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IK5SvGMLqfBiNEefT4bq-43" value="xclient" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="632" width="720" height="108" as="geometry" />
         </mxCell>
         <mxCell id="IK5SvGMLqfBiNEefT4bq-57" value="" style="endArrow=none;dashed=1;html=1;entryX=1;entryY=0.449;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.445;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
@@ -650,7 +650,7 @@
         <mxCell id="h7aEoU6xv7qbS39ggz7S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.149;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" parent="zd1k4HYxMjK0sM8L87X2-1" source="h7aEoU6xv7qbS39ggz7S-1" target="h7aEoU6xv7qbS39ggz7S-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h7aEoU6xv7qbS39ggz7S-1" value="xstor-client 接口调用" style="rounded=0;whiteSpace=wrap;html=1;" parent="zd1k4HYxMjK0sM8L87X2-1" vertex="1">
+        <mxCell id="h7aEoU6xv7qbS39ggz7S-1" value="xclient 接口调用" style="rounded=0;whiteSpace=wrap;html=1;" parent="zd1k4HYxMjK0sM8L87X2-1" vertex="1">
           <mxGeometry x="30" y="560" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h7aEoU6xv7qbS39ggz7S-2" value="nal" style="rounded=0;whiteSpace=wrap;html=1;" parent="zd1k4HYxMjK0sM8L87X2-1" vertex="1">
