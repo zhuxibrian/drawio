@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T12:39:33.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="IgbhXsxbf49qGMtfwyJh" version="14.4.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-19T12:40:00.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="oMWAVzR1b-Q8xibR_mLV" version="14.4.7" type="github" pages="7">
   <diagram id="qRUG0cfqEuVmG1pRATtT" name="整体">
     <mxGraphModel dx="2253" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1302,7 +1302,7 @@
         <mxCell id="RLZH9b4AAafqNgsq8HXi-13" value="SPDK&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;fontSize=35;" parent="OynWTQ6G886Octdcwxtz-1" vertex="1">
           <mxGeometry x="-215" y="1310" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DfsDHGQwPCFAOyNKuTFo-0" value="librbd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="OynWTQ6G886Octdcwxtz-1" vertex="1">
+        <mxCell id="DfsDHGQwPCFAOyNKuTFo-0" value="libxbd-vhost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="OynWTQ6G886Octdcwxtz-1" vertex="1">
           <mxGeometry x="184" y="1390" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfsDHGQwPCFAOyNKuTFo-1" value="" style="endArrow=classic;html=1;" parent="OynWTQ6G886Octdcwxtz-1" edge="1">
