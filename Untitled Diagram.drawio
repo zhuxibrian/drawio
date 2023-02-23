@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T06:26:25.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="xTIbcmM6PgRnKaFV4QjK" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-23T06:28:09.280Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="gInxPDPabsWEJqzbz0tS" version="20.8.23" type="github">
   <diagram id="cpIiz0hkxJm84qq82TX_" name="第 1 页">
     <mxGraphModel dx="2074" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -161,6 +161,19 @@
         </mxCell>
         <mxCell id="Y4RRBgap4qox0ThQ7hxp-34" value="开始" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="490" y="340" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4RRBgap4qox0ThQ7hxp-35" value="cmnd_rx_end" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y4RRBgap4qox0ThQ7hxp-37" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.643;exitY=-0.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y4RRBgap4qox0ThQ7hxp-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="140" as="sourcePoint" />
+            <mxPoint x="1030" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="130" />
+              <mxPoint x="950" y="90" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
