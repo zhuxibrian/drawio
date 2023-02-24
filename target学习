@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T12:30:47.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="qliyig-VDVBPTrYLDAc6" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-24T12:32:54.372Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="edI1OVkmAi6lsPyA1-Fi" version="20.8.23" type="github">
   <diagram id="cpIiz0hkxJm84qq82TX_" name="第 1 页">
     <mxGraphModel dx="1194" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -300,16 +300,16 @@
           <mxGeometry x="2940" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nZlNzqzAGyx0WQ10Jjtd-25" value="scsi_process_read" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3090" y="65" width="130" height="35" as="geometry" />
+          <mxGeometry x="3020" y="477.5" width="130" height="35" as="geometry" />
         </mxCell>
         <mxCell id="nZlNzqzAGyx0WQ10Jjtd-26" value="scsi_process_write" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3090" y="115" width="130" height="35" as="geometry" />
+          <mxGeometry x="3020" y="527.5" width="130" height="35" as="geometry" />
         </mxCell>
         <mxCell id="nZlNzqzAGyx0WQ10Jjtd-27" value="scsi_process_unmap" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3090" y="160" width="130" height="35" as="geometry" />
+          <mxGeometry x="3020" y="572.5" width="130" height="35" as="geometry" />
         </mxCell>
         <mxCell id="nZlNzqzAGyx0WQ10Jjtd-28" value="..." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3090" y="205" width="130" height="35" as="geometry" />
+          <mxGeometry x="3020" y="617.5" width="130" height="35" as="geometry" />
         </mxCell>
         <mxCell id="nZlNzqzAGyx0WQ10Jjtd-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -343,6 +343,16 @@
         </mxCell>
         <mxCell id="nZlNzqzAGyx0WQ10Jjtd-38" value="分配后的cmnd挂在conn-&amp;gt;pdu_list上" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="307" y="680" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nZlNzqzAGyx0WQ10Jjtd-42" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3070" y="140" as="sourcePoint" />
+            <mxPoint x="3190" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3200" y="170" />
+              <mxPoint x="3270" y="470" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
