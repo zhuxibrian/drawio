@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T11:31:05.011Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Pxc0Ko5V8WdS48Mw4fgE" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-24T11:38:52.001Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="n7f-5Yb8n1WvnOHzgEXp" version="20.8.23" type="github">
   <diagram id="cpIiz0hkxJm84qq82TX_" name="第 1 页">
     <mxGraphModel dx="1194" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,6 +223,12 @@
         <mxCell id="Y4RRBgap4qox0ThQ7hxp-51" value="cmnd_release" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="227.5" width="200" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="nZlNzqzAGyx0WQ10Jjtd-6" value="ISCSI_OP_SCSI_CMD" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y4RRBgap4qox0ThQ7hxp-54" target="nZlNzqzAGyx0WQ10Jjtd-5">
+          <mxGeometry x="0.0178" y="9" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Y4RRBgap4qox0ThQ7hxp-54" value="iscsi_cmnd_exec" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1820" y="40" width="100" height="35" as="geometry" />
         </mxCell>
@@ -237,6 +243,17 @@
         </mxCell>
         <mxCell id="nZlNzqzAGyx0WQ10Jjtd-2" value="list_add_tail &lt;br&gt;session-&amp;gt;pending_list" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1820" y="90" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nZlNzqzAGyx0WQ10Jjtd-8" value="wait for kpc" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nZlNzqzAGyx0WQ10Jjtd-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2330" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nZlNzqzAGyx0WQ10Jjtd-5" value="scsi_cmnd_exec()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="100" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nZlNzqzAGyx0WQ10Jjtd-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="40" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
