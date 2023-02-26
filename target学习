@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-26T03:42:08.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="JhmKtXJNZYLSgezV1NYP" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-26T07:51:26.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7vsg63LL_Sd4z7nemQbL" version="20.8.23" type="github">
   <diagram id="cpIiz0hkxJm84qq82TX_" name="第 1 页">
-    <mxGraphModel dx="2336" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3268" dy="1912" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -571,6 +571,15 @@
         <mxCell id="hI-jur-henCumyWb3LMB-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hI-jur-henCumyWb3LMB-56" target="hI-jur-henCumyWb3LMB-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hI-jur-henCumyWb3LMB-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;curved=1;" edge="1" parent="1" source="hI-jur-henCumyWb3LMB-56" target="hI-jur-henCumyWb3LMB-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2040" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2770" y="1200" />
+              <mxPoint x="1160" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hI-jur-henCumyWb3LMB-56" value="构造cmd_resp-&amp;gt;fecmd&lt;br&gt;notifycb-&amp;gt;scsi_write_callback" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2770" y="767.5" width="195" height="32.5" as="geometry" />
         </mxCell>
@@ -656,11 +665,47 @@
         <mxCell id="hI-jur-henCumyWb3LMB-84" value="tgt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="260" y="1560" width="50" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="hI-jur-henCumyWb3LMB-87" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hI-jur-henCumyWb3LMB-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hI-jur-henCumyWb3LMB-85" value="notifycb-&amp;gt;scsi_write_callback" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1590" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hI-jur-henCumyWb3LMB-86" value="notifycb-&amp;gt;scsi_read_callback" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1630" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hI-jur-henCumyWb3LMB-90" value="scsi_analyze_state" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="1560" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hI-jur-henCumyWb3LMB-91" value="判断消息状态，设置scsi状态&lt;br&gt;SCSI_GOOD、SCSI_BUSY&lt;br&gt;scsi_fill_sense(): HARDWARE_ERR、ILLEGAL_REQUEST" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1425" y="1470" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hI-jur-henCumyWb3LMB-95" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="hI-jur-henCumyWb3LMB-94" target="nZlNzqzAGyx0WQ10Jjtd-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hI-jur-henCumyWb3LMB-96" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hI-jur-henCumyWb3LMB-95">
+          <mxGeometry x="-0.9481" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hI-jur-henCumyWb3LMB-97" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="hI-jur-henCumyWb3LMB-94" target="nZlNzqzAGyx0WQ10Jjtd-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1443" y="1670" />
+              <mxPoint x="3320" y="1670" />
+              <mxPoint x="3320" y="538" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hI-jur-henCumyWb3LMB-98" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hI-jur-henCumyWb3LMB-97">
+          <mxGeometry x="-0.9286" y="8" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hI-jur-henCumyWb3LMB-94" value="写完成？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1610" width="165" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
