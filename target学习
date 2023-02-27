@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T02:08:47.113Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="x8UzLvIe2dgnr34uDceu" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T02:20:21.199Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="jriWw_3wqAAFolMSj_c2" version="20.8.23" type="github">
   <diagram id="cpIiz0hkxJm84qq82TX_" name="第 1 页">
     <mxGraphModel dx="1992" dy="1312" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -778,6 +778,18 @@
               <mxPoint x="730" y="2010" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LkXPmYTFD-VFmI8wrT0L-11" value="sit_write_data" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2240" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXPmYTFD-VFmI8wrT0L-15" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;conn_write_cmnd_clear&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXPmYTFD-VFmI8wrT0L-16" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;cmnd_release&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;释放iscsi_cmnd上申请的各种内存&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;归还kpc内存&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;释放iscsi_cmnd内存&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="2110" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXPmYTFD-VFmI8wrT0L-17" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;conn_write_cmnd_init&lt;br&gt;清空conn网络发送结构数据&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="2190" width="210" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
