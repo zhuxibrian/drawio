@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T02:21:07.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="7r8VwBnKKCV7ArqJ8TY2" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T01:14:44.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="_TjVVYmTVwxdclrCd2P4" version="20.8.23" type="github">
   <diagram id="cpIiz0hkxJm84qq82TX_" name="第 1 页">
-    <mxGraphModel dx="1992" dy="1312" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2840" dy="1824" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,6 +228,9 @@
             <mxPoint x="1270" y="100" as="sourcePoint" />
             <mxPoint x="1380" y="100" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LkXPmYTFD-VFmI8wrT0L-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y4RRBgap4qox0ThQ7hxp-49" target="LkXPmYTFD-VFmI8wrT0L-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y4RRBgap4qox0ThQ7hxp-49" value="data_out_end" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="135" width="200" height="25" as="geometry" />
@@ -790,6 +793,12 @@
         </mxCell>
         <mxCell id="LkXPmYTFD-VFmI8wrT0L-17" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;conn_write_cmnd_init&lt;br&gt;清空conn网络发送结构数据&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1220" y="2190" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXPmYTFD-VFmI8wrT0L-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LkXPmYTFD-VFmI8wrT0L-18" target="nZlNzqzAGyx0WQ10Jjtd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LkXPmYTFD-VFmI8wrT0L-18" value="做些参数检查" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="133" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
