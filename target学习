@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T01:36:19.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="jCRZHA9iaI4-6clJjcjN" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T01:37:52.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="XmNlKJbx63_60jbWxqWJ" version="20.8.23" type="github">
   <diagram id="cpIiz0hkxJm84qq82TX_" name="第 1 页">
     <mxGraphModel dx="2840" dy="1824" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -259,8 +259,16 @@
         <mxCell id="Y4RRBgap4qox0ThQ7hxp-57" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ISCSI_OP_IMMEDIATE&lt;br&gt;or cmd_sn== exp_cmd_sn&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1620" y="60" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="LkXPmYTFD-VFmI8wrT0L-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="nZlNzqzAGyx0WQ10Jjtd-2" target="Y4RRBgap4qox0ThQ7hxp-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1910" y="108" />
+              <mxPoint x="1910" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nZlNzqzAGyx0WQ10Jjtd-2" value="将请求按顺序插入&lt;br&gt;list_add_tail &lt;br&gt;session-&amp;gt;pending_list" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1820" y="90" width="140" height="35" as="geometry" />
+          <mxGeometry x="1750" y="90" width="140" height="35" as="geometry" />
         </mxCell>
         <mxCell id="nZlNzqzAGyx0WQ10Jjtd-8" value="wait for kpc" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nZlNzqzAGyx0WQ10Jjtd-5" edge="1">
           <mxGeometry relative="1" as="geometry">
